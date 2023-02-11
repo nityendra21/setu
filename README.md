@@ -93,13 +93,16 @@ Illustrating procedures for assembly of the SARS-CoV-2 genome.
 
 If you use setu in your research, please cite us as follows:
 
-   Jitendra Narayan¹*, Nityendra Shukla¹, Suyash Agarwal², Neha Srivastava³, Prekshi Garg³, Prachi Srivastava³* **Setu: A Pipeline for the robust Assembling of the SARS-CoV-2 Genome** https://github.com/jnarayan81/setu, 2020. Version 0.1
+   Jitendra Narayan¹*†, Nityendra Shukla¹†, Suyash Agarwal², Neha Srivastava³, Prekshi Garg³, Prachi Srivastava³* **Setu: A Pipeline for the robust Assembling of the SARS-CoV-2 Genome** https://github.com/jnarayan81/setu, 2020. Version 0.1.
+   
+*Corresponding authors<br>
+†Contributed equally
 
 BibTex:
 
 ```
 @misc{setu,
-  author={Jitendra Narayan¹*, Nityendra Shukla¹, Suyash Agarwal², Neha Srivastava³, Prekshi Garg³, Prachi Srivastava³*}
+  author={Jitendra Narayan¹*†, Nityendra Shukla¹†, Suyash Agarwal², Neha Srivastava³, Prekshi Garg³, Prachi Srivastava³*}
   title={{Setu}: {A Pipeline for the robust Assembling of the SARS-CoV-2 Genome}},
   howpublished={https://github.com/jnarayan81/setu},
   note={Version 0.1},
