@@ -1,0 +1,26 @@
+{
+  "name": "@nityendra21/setu",
+  "version": "1.0.0",
+  "description": "SARS-CoV-2 assembly",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nityendra21/setu.git"
+  },
+  "keywords": [
+    "assembly",
+    "bioinformatics",
+    "ngs",
+    "sars-cov-2",
+    "denovo"
+  ],
+  "author": "Jitendra Narayan, Nityendra Shukla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nityendra21/setu/issues"
+  },
+  "homepage": "https://github.com/nityendra21/setu#readme"
+}
