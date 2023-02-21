@@ -15,4 +15,4 @@ dependencies:
  - ragout=2.3
  - quast=5.2.0
  - gap2seq=3.1
- - nextclade=3.11.0
+ - nextclade=2.11.0
