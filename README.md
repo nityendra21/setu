@@ -29,7 +29,11 @@ git clone https://github.com/jnarayan81/setu.git
 Required dependencies can be installed in a separate conda environment named **setu** through:
 ```
 cd setu
-conda create -f env_setu.yml
+conda env create -f env_setu.yml
+```
+After installation, the Setu script can be made executable using the following command:
+```
+chmod +x setu.sh
 ```
 Setu requires the following dependencies to be installed:
  - Python 3.7
@@ -52,6 +56,10 @@ Setu requires the following dependencies to be installed:
  ```
  ./setu.sh -k yes -m pe -t 1 -r paired_1.fastq,paired_2.fastq -f on -o OutputDirectory
  ```
+ or
+ ```
+ bash setu.sh -k yes -m pe -t 1 -r paired_1.fastq,paired_2.fastq -f on -o OutputDirectory
+ ```
  Please note that there's no space after the comma when specifying reads using the `-r` flag.
  
  Assembly of long-reads and hybrid-reads is currently ongoing and will be updated.
@@ -59,7 +67,7 @@ Setu requires the following dependencies to be installed:
  ## Testing
  You can test your installation by running:
  ```
- ./test_run.sh
+ bash test_run.sh
  ```
 <h2>Setu: A Pipeline for the robust Assembling of the SARS-CoV-2 Genome</h2>
 
