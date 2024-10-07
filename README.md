@@ -80,13 +80,10 @@ Consult Jitendra Narayan at jnarayan81@gmail.com or info@bioinformaticsonline.co
 The Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) is a new Betacoronavirus strain that infects humans. This disease is the cause of the ongoing Coronavirus Disease (CoViD2019) pandemic. Because of the rapid innovation and decreasing prices of high throughput sequencing technologies, the virus has been sequenced internationally in a large number of people who have been infected. While next-generation sequencing (NGS) technology provides a reliable method of identifying potential infections in clinical specimens, simple and user-friendly bioinformatics workflows are necessary to acquire a complete viral genome sequence with the greatest accuracy. We have developed a thorough workflow for evaluating and decoding SARS-CoV 2 sequencing data using open source technologies. It entails complete sequence elimination of host- or bacteria-related NGS reads prior to de novo assembly, resulting in the quick and accurate assembly of viral genome metagenomic sequences.
 
 # Flowchart 
-Illustrating procedures for assembly of the SARS-CoV-2 genome.
+Illustrated workflow of Setu.
 
-![Setu flowchart](setu.png "Setu Flowchart")
+![Figure S1](https://github.com/user-attachments/assets/18a36d65-594e-44f2-bd98-63047de2009f)
 
-# News
-
-**June 1, 2022:** Release v0.2, see release notes [here](http://bioinformaticsonline.com/setu)
 
 # Blogs and Publications
 
@@ -96,17 +93,25 @@ Illustrating procedures for assembly of the SARS-CoV-2 genome.
 
 If you use setu in your research, please cite us as follows:
 
-   Nityendra Shukla¹, Neha Srivastava³, Prachi Srivastava³*, Jitendra Narayan¹* **Setu: A Pipeline for the robust Assembling of the SARS-CoV-2 Genome** https://github.com/jnarayan81/setu, 2023. Version 0.2
+   Shukla N, Srivastava N, Srivastava P, Narayan J. 2024. Setu: a pipeline for the robust assembly of SARS-CoV-2 genomes. Microbiol Resour Announc 13:e00237-24.
 
 BibTex:
 
 ```
-@misc{setu,
-  author={Nityendra Shukla¹, Neha Srivastava³, Prachi Srivastava³*, Jitendra Narayan¹*}
-  title={{Setu}: {A Pipeline for the robust Assembling of the SARS-CoV-2 Genome}},
-  howpublished={https://github.com/jnarayan81/setu},
-  note={Version 0.2},
-  year={2023}
+@article{doi:10.1128/mra.00237-24,
+author = {Nityendra Shukla and Neha Srivastava and Prachi Srivastava and Jitendra Narayan},
+title = {Setu: a pipeline for the robust assembly of SARS-CoV-2 genomes},
+journal = {Microbiology Resource Announcements},
+volume = {13},
+number = {7},
+pages = {e00237-24},
+year = {2024},
+doi = {10.1128/mra.00237-24},
+
+URL = {https://journals.asm.org/doi/abs/10.1128/mra.00237-24},
+eprint = {https://journals.asm.org/doi/pdf/10.1128/mra.00237-24}
+,
+    abstract = { ABSTRACT Setu is an efficient pipeline integrating currently available open source bioinformatic tools to perform rapid de novo assembly to assist tracking of severe acute respiratory syndrome coronavirus 2 genome evolution in clinical data, being particularly useful for institutions with limited computing resources or personnel not familiar with bioinformatic pipelines. }
 }
 ```
 
